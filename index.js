@@ -35,7 +35,7 @@ function fareTripler(fare){
 function selectDifferentDrivers(a,b){
     if(returnFirstTwoDrivers===b){
         return returnFirstTwoDrivers()
-    } if(returnLastTwoDrivers===b){
+    }else if(returnLastTwoDrivers===b){
         return returnLastTwoDrivers()
     }
 }
